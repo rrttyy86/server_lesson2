@@ -1,0 +1,77 @@
+    1  cd /root
+    2  mkdir server_lesson && cd server_lesson
+    3  apt update -y && apt install -y git
+    4  git version
+    5  sudo apt update && sudo apt upgrade
+    6  apt update -y && apt install -y git
+    7  git version
+    8  git init
+    9  touch first.txt
+   10  ls
+   11  cd /home
+   12  echo 'Linux Practice' >> README.md
+   13  ls
+   14  echo '-----------------' >> README.md
+   15  cat README.md
+   16  apt update -y && apt install -y vim
+   17  cd /home
+   18  vi README.md
+   19  ls
+   20  cd ..
+   21  ls
+   22  cd /server_lesson#
+   23  cd /server_lesson
+   24  cd home
+   25  mkdir -p server_lesson/linux_practice1
+   26  ls
+   27  cd server_lesson
+   28  cd linux_practice1
+   29  mkdir public
+   30  touch public/index.php
+   31  ls
+   32  ls public
+   33  cp index.php index_bk.php
+   34  cd public
+   35  ls
+   36  cp index.php index_bk.php
+   37  ls
+   38  cd .
+   39  cd ..
+   40  cp -r public tmp
+   41  ls
+   42  rm tmp/index_bk.php
+   43  ls tmp
+   44  vi README.md
+   45  cat README.md
+   46  cd ..
+   47  mkdir Linux_practice2
+   48  cd Linux_practice2
+   49  mkdir documents
+   50  touch beyond{01..50}.md
+   51  ls
+   52  mkdir trash
+   53  cd trash
+   54  cd ..
+   55  ls
+   56  mv beyond{20..40}md trash/.
+   57  ls
+   58  mv beyond{20..40}.md trash/.
+   59  ls
+   60  ls trash
+   61  touch .gitignore
+   62  ls
+   63  touch Linux_practice2/.gitignore
+   64  ls
+   65  ls trash
+   66  touch .gitignore
+   67  ls
+   68  cat .gitignore
+   69  ls
+   70* 
+   71  git rm --cache  beyond{20..29}.md
+   72  history 300
+   73  echo history 300 > exec_command.log
+   74  cat exec_command.log
+   75  rm exec_command.log
+   76  ls
+   77  history 300 > exec_command.log
